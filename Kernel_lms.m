@@ -33,6 +33,7 @@ for n=2:N_tr-m+1
     
 end
 %str=sprintf('LMS NMSE for filter order %d',m);
+% Learning Curve
 plot(nmse);
 title('Learning for KLMS');
 xlabel('Iterations')
